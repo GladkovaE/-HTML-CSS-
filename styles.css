@@ -1,0 +1,79 @@
+body {
+    font-family: 'Garamond', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+   background: url('https://storage.needpix.com/rsynced_images/turquoise-smooth-seamless-pattern.jpg') no-repeat center center fixed;
+    background-size: cover; /* Масштабирование фона */
+    color: #fff; /* Цвет текста */
+}
+
+header {
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для секций */
+    font-size: 25px;
+}
+
+h2 {
+    color: #FFD700; /* Золотой цвет для заголовков */
+    font-size: 25px;
+}
+
+.portfolio-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background: rgba(255, 255, 255, 0.1); /* Полупрозрачный фон для портфолио */
+    font-size: 25px;
+}
+
+.portfolio-item img {
+    max-width: 100%; /* Адаптивное изображение */
+    height: auto;
+    font-size: 25px;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+}
+.photo {
+  border-radius: 100px;
+  border: 3px solid transparent;
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+}
